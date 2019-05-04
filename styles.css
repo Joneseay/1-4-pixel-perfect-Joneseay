@@ -42,9 +42,11 @@ aside{
   margin-right: 145px;
 }
 .main-sections{
+  background-color: white;
   top: 0;
   width: 750px;
   margin-left: 145px;
+  margin-bottom: 50px;
   /* float: left; */
 
 }
@@ -102,24 +104,27 @@ a{
 h2 {
   font-family: oswald;
   text-align:center;
+  font-weight: 700;
 }
 h3 {
   font-family: oswald;
   text-align: center;
 }
 p{
-  font-family: playfair+display;
+  font-family: lato;
   text-align: center;
   font-size: 15px;
   line-height: 25px;
+  font-weight: 400 bold;
 }
 .main-sections > div{
   color: red;
   text-align: center;
-  font-family: oswald;
+  font-family: lato;
   text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 42px;
 
 }
 .main-sections > a{
@@ -127,9 +132,11 @@ p{
   height: 20px;
   width: 50px;
   left: 300px;
-  border: red solid 2px;
+  border: red solid 1px;
   color: red;
   font-family: lato;
+  font-size: 13px;
+  padding: 10px 15px;
 
 }
 .section-footer{
@@ -137,7 +144,8 @@ p{
   position: relative;
 }
 .section-footer > p {
-  text-align: left
+  text-align: left;
+  margin-bottom: 100px;
 
 }
 .section-footer > ul{
@@ -146,6 +154,7 @@ p{
 
 }
 .Mountain-sunset{
+  height: 300px;
   padding-bottom: 50px;
 }
 .Latest-post > div > img{
@@ -168,4 +177,15 @@ p{
   width: 170px;
   height: 200px;
   /* overflow-y:hidden; */
+}
+.main-sections > p{
+  width: 675px;
+  margin-left: 35px;
+  margin-bottom: 45px;
+}
+.main-sections > img{
+  height: 470px;
+}
+aside > section{
+  background-color: white;
 }
