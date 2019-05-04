@@ -99,6 +99,7 @@ a{
   position: absolute;
   left: 90px;
   top: 113px;
+  border: white solid 5px;
 
 }
 h2 {
@@ -154,8 +155,9 @@ p{
 
 }
 .Mountain-sunset{
-  height: 300px;
+  height: 230px;
   padding-bottom: 50px;
+  margin-bottom: 30px;
 }
 .Latest-post > div > img{
   width: 100px;
@@ -188,4 +190,46 @@ p{
 }
 aside > section{
   background-color: white;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-bottom: 45px
+}
+.Profile-tile{
+  padding-bottom: 25px;
+  padding-top:0;
+  margin-top:0;
+}
+.Profile-tile > p {
+  margin: 0 15px;
+}
+.Profile-tile > ul{
+  padding-top: 10px;
+  padding-left: 71px;
+}
+.Profile-tile > ul > li > i{
+  border-radius: 50%;
+  border: black solid 1px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 3px;
+}
+aside > section > h2{
+  /* padding-top: 20px; */
+  font-weight:300;
+  font-family:oswald;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.Popular-posts > div > img{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%)
+}
+.section-footer {
+  margin: 45px 45px 0px 45px;
+  height: 100px;
+  border-top: 1px solid black;
 }
