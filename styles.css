@@ -67,8 +67,9 @@ aside{
   font-family: lato;
   padding: 5px 5px;
   color: #444;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 10px;
+  font-style: bold;
   /* letter-spacing: 3px; */
 }
 .navlist-right{
@@ -80,7 +81,7 @@ aside{
   font-size: 15px;
 }
 .navlist-left > li > a{
-  font-weight:400;
+
 }
 button{
   background-color: #f8f8f8;
@@ -303,10 +304,10 @@ i:hover{
   background-color: powderblue;
 }
 h3:hover{
-  background-color: powderblue;
+  text-decoration: underline;
 }
 h2:hover{
-  background-color: powderblue;
+  text-decoration: underline;
 }
 i{
   color:#bcbcbc;
